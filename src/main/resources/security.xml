@@ -5,9 +5,6 @@
              xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
              http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
-    <!--<beans:bean id="accessDeniedHandler" class="org.springframework.security.web.access.AccessDeniedHandlerImpl">-->
-        <!--<beans:property name="errorPage" value="pages/denied.jsp"/>-->
-    <!--</beans:bean>-->
 
     <beans:bean id="roleVoter" class="org.springframework.security.access.vote.RoleVoter">
         <beans:property name="rolePrefix" value=""/>
